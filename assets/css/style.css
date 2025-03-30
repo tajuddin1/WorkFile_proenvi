@@ -1,0 +1,98 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #474647;
+}
+.text-dark{
+    color: #474647 !important;
+}
+
+.container{
+    max-width: 1064px;
+}
+
+header{
+    min-height: 55px;
+    background-color: #fff;
+}
+
+.nav-link{
+    font-size: 12px;
+}
+.nav-link.active{
+    color: #008000 !important;
+}
+
+input.form-control.form-search {
+    font-size: 10px;
+    max-height: 26px;
+    outline: none;
+}
+input.form-control.form-search:focus {
+    box-shadow: unset;
+}
+
+.hero-section, .who{
+    background-color: #F8F8F8;
+}
+
+.text-theme{
+    color: #5AB567;
+}
+
+.hero-desc-area{
+    max-width: 500px;
+}
+.hero-desc-area p{
+    font-size: 14.5px;
+    line-height: 130%;
+}
+.card{
+    max-width: 180px;
+}
+.card-title{
+    font-size: 12px;
+}
+
+.card-desc{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.who p{
+    max-width: 600px;
+    font-size: 14.5px;
+    text-align: justify;
+}
+.inner-container{
+    margin: 0 7%;
+}
+.item-card{
+    font-size: 13px;
+}
+.border-6{
+    border-width: 10px !important;
+}
+footer{
+    background-color: #474647;
+    font-size: 10px;
+}
+footer p{
+    padding-bottom: 3px;
+}
+
+footer span {
+    display: inline-block;
+    min-width: 35px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .inner-container {
+        margin: 0 4%;
+    }
+
+    .image-container img {
+        max-width: 70px;
+    }
+    
+}
