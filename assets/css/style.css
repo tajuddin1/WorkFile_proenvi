@@ -85,7 +85,70 @@ footer span {
     min-width: 35px;
 }
 
+.inner{
+    max-width: 700px;
+    margin: auto;
+}
 
+.sub-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #5AB567;
+}
+.desc{
+    font-size: 13px;
+}
+.desc-sm{
+    font-size: 10px;
+}
+.dash-list{
+    list-style-image: url(../images/dash.gif);
+    list-style-position: outside;
+}
+
+.dash-list-green{
+    list-style-image: url(../images/dash-green.gif);
+    list-style-position: outside;
+    color: #5AB567;
+}
+
+table{
+    max-width: 500px;
+}
+table td{
+    line-height: 1.2;
+    font-size: 13px;
+    vertical-align: middle;
+}
+table td a{
+    color: #474647;
+}
+
+.table>:not(caption)>*>* {
+    padding: .33rem .3rem;
+    color: #474647;
+    background-color: transparent !important;
+}
+
+.deleted{
+    color: #FF0000;
+    text-decoration: line-through;
+}
+
+#info .item-card .desc {
+    max-width: 460px;
+}
+.newsleter-wrapper{
+    max-width: 750px;
+    margin: auto;
+}
+.newsleter-form{
+    max-width: 550px;
+}
+.form-control{
+    font-size: 13px;
+}
 @media screen and (max-width: 768px) {
     .inner-container {
         margin: 0 4%;
